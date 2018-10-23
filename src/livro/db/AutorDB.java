@@ -57,7 +57,7 @@ public class AutorDB {
         String sqlCreate = "CREATE TABLE IF NOT EXISTS " + TABLE
                 + "  (id            INTEGER,"
                 + "   nome          VARCHAR(255),"
-                + "   cpf           LONG"
+                + "   cpf           LONG,"
                 + "   PRIMARY KEY (id))";
         Statement stmt = conn.createStatement();
         stmt.execute(sqlCreate);
